@@ -29,6 +29,8 @@
 
         <EditText
             android:id="@+id/editTextEmail"
+            android:hint="Email :"
+            android:inputType="text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/button_background"
@@ -41,6 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:hint="Password :"
             android:background="@drawable/button_background"
             android:padding="10dp"
             android:text="Password :"
